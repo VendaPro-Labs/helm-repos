@@ -3,6 +3,16 @@ entries:
   helm-example:
   - apiVersion: v2
     appVersion: 1.16.0
+    created: "2024-01-10T22:15:09.215815367Z"
+    description: A Helm chart for Kubernetes
+    digest: 4b071f23180f1df4f93f96771046a104433997f94da86cd53b9930f28f209258
+    name: helm-example
+    type: application
+    urls:
+    - https://github.com/VendaPro-Labs/helm-repos/releases/download/helm-example-0.1.2/helm-example-0.1.2.tgz
+    version: 0.1.2
+  - apiVersion: v2
+    appVersion: 1.16.0
     created: "2024-01-05T18:40:47.42934359Z"
     description: A Helm chart for Kubernetes
     digest: 97b5e4c7876e98541a42f6e750e7fb3d1183829c481d15f15a5d69ad2b55ca65
@@ -21,4 +31,4 @@ entries:
     urls:
     - https://github.com/VendaPro-Labs/helm-repos/releases/download/helm-example-0.1.0/helm-example-0.1.0.tgz
     version: 0.1.0
-generated: "2024-01-05T18:40:47.429356053Z"
+generated: "2024-01-10T22:15:09.215831166Z"
