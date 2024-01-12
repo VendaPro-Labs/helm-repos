@@ -5,7 +5,7 @@
 replicaCount: 1
 
 image:
-  repository: nginxinc/nginx-unprivileged
+  repository: ghcr.io/logix-lab/kryptochain:main@sha256:b468e08ad8c98fb4efb13d18d4d750732c3a2240304e4a363c6ae022a392ccda
   pullPolicy: IfNotPresent
   # Overrides the image tag whose default is the chart appVersion.
   tag: ""
@@ -41,10 +41,10 @@ securityContext: {}
 
 service:
   type: ClusterIP
-  port: 80
+  port: 3001
 
 ingress:
-  enabled: false
+  enabled: true
   className: ""
   annotations: {}
     # kubernetes.io/ingress.class: nginx
